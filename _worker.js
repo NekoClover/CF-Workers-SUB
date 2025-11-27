@@ -13,13 +13,8 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
-https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt
-https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
-https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_sub_merge.txt
-https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt
-https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjEwNy4xNzUuMzUuMTE6MzI0MTAiLA0KICAiYWRkIjogIjEwNy4xNzUuMzUuMTEiLA0KICAicG9ydCI6ICIzMjQxMCIsDQogICJpZCI6ICJkMTk5OTY1Yi1lZjExLTQ0ODYtOGE1ZC1jZDE4NzZmZjQ5ZmEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogImtjcCIsDQogICJ0eXBlIjogInV0cCIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIiwNCiAgImluc2VjdXJlIjogIjAiDQp9
+hysteria2://240916XT@107.175.35.11:10806?sni=www.bing.com&insecure=1&allowInsecure=1#Hysteria2-misaka
 `
 
 let urls = [];
@@ -838,3 +833,4 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 	}
 
 }
+
